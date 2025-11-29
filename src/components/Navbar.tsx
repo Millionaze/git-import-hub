@@ -7,33 +7,33 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-background border-b sticky top-0 z-50">
+    <nav className="bg-background border-b sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center gap-2">
+        <div className="flex justify-between items-center h-20">
+          <Link to="/" className="flex items-center">
             <img 
               src="/uploads/2025/05/defaultpathway.png" 
               alt="Default Pathway" 
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium">
               Home
             </Link>
-            <Link to="/sell-your-home" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/sell-your-home" className="text-foreground hover:text-primary transition-colors font-medium">
               Sell Your Home
             </Link>
-            <Link to="/save-your-home" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/save-your-home" className="text-foreground hover:text-primary transition-colors font-medium">
               Save Your Home
             </Link>
-            <Link to="/blog" className="text-foreground hover:text-primary transition-colors">
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium">
               Blog
             </Link>
-            <Button variant="outline" size="sm">
-              Sign In
+            <Button variant="ghost" size="sm" className="font-medium">
+              ✓ Sign In
             </Button>
           </div>
 
