@@ -2,11 +2,11 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/home/HeroSection";
 import { EasySellingSection } from "@/components/home/EasySellingSection";
-import { HowItWorksSection } from "@/components/home/HowItWorksSection";
+import { WhyDefaultPathwaySection } from "@/components/home/WhyDefaultPathwaySection";
+import { PersonalSolutionsSection } from "@/components/home/PersonalSolutionsSection";
 import { CashOffersSection } from "@/components/home/CashOffersSection";
 import { SellRetailSection } from "@/components/home/SellRetailSection";
 import { SupportSection } from "@/components/home/SupportSection";
-import { StatisticsSection } from "@/components/home/StatisticsSection";
 
 const Index = () => {
   return (
@@ -15,11 +15,11 @@ const Index = () => {
       <main className="flex-1">
         <HeroSection />
         <EasySellingSection />
-        <HowItWorksSection />
+        <WhyDefaultPathwaySection />
+        <PersonalSolutionsSection />
         <CashOffersSection />
         <SellRetailSection />
         <SupportSection />
-        <StatisticsSection />
       </main>
       <Footer />
     </div>
