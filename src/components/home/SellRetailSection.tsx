@@ -32,8 +32,17 @@ export const SellRetailSection = () => {
             </div>
 
             <div className="bg-muted/30 rounded-2xl p-8">
-              <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                <p className="text-muted-foreground">Agent Offers Preview</p>
+              <div className="grid grid-cols-2 gap-4">
+                <img 
+                  src="/uploads/2025/05/agent_1.png" 
+                  alt="Real estate agent" 
+                  className="w-full h-auto rounded-lg"
+                />
+                <img 
+                  src="/uploads/2025/05/agente_2.png" 
+                  alt="Real estate professional" 
+                  className="w-full h-auto rounded-lg"
+                />
               </div>
             </div>
           </div>

@@ -18,10 +18,12 @@ export const SupportSection = () => {
               </Button>
             </div>
             
-            <div className="bg-background rounded-2xl p-8">
-              <div className="aspect-video bg-muted/50 rounded-lg flex items-center justify-center">
-                <p className="text-muted-foreground">Support Chat Visualization</p>
-              </div>
+            <div className="bg-background rounded-2xl p-8 overflow-hidden">
+              <img 
+                src="/uploads/2025/04/featured-image-4.jpg" 
+                alt="Professional support team" 
+                className="w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>

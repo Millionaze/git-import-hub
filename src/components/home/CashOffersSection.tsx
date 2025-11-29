@@ -59,10 +59,12 @@ export const CashOffersSection = () => {
             ))}
           </div>
 
-          <div className="bg-background rounded-2xl p-8 text-center">
-            <div className="aspect-video bg-muted/50 rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">Mobile App Preview</p>
-            </div>
+          <div className="bg-background rounded-2xl p-8 text-center overflow-hidden">
+            <img 
+              src="/uploads/2025/05/realstate_defaultpathway_image-2.jpg" 
+              alt="Property comparison dashboard" 
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         </div>
       </div>
