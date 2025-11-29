@@ -10,8 +10,12 @@ export const Navbar = () => {
     <nav className="bg-background border-b sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-display font-bold text-primary">
-            Default Pathway
+          <Link to="/" className="flex items-center gap-2">
+            <img 
+              src="/uploads/2025/05/defaultpathway.png" 
+              alt="Default Pathway" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

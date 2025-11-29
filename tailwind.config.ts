@@ -54,8 +54,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        display: ["Playfair Display", "serif"],
+        sans: ["Nunito Sans", "sans-serif"],
+        display: ["Cormorant", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
