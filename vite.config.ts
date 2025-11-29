@@ -17,7 +17,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  css: {
-    postcss: './postcss.config.js',
-  },
 }));
