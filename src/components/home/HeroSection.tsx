@@ -5,11 +5,15 @@ export const HeroSection = () => {
   return (
     <section className="relative bg-background text-foreground py-24 md:py-32 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/uploads/2025/05/Portadas-Default-2.png" 
-          alt="Find your path forward" 
-          className="w-full h-full object-cover opacity-20"
-        />
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="w-full h-full object-cover opacity-30"
+        >
+          <source src="/uploads/2025/04/defaultpathway_1.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background"></div>
       </div>
       <div className="container mx-auto px-4 relative z-10">
